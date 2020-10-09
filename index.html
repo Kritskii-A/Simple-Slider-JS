@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Slider JS | Простой слайдер на JS</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="https://kritskii-a.github.io/" class="navbar-brand"
+            >Simple Slider JS | Простой слайдер на JS</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="panel panel-success">
+        <div class="panel-heading">Functional:</div>
+        <div class="panel-body">
+          <ul>
+            <li>Autolisting</li>
+            <li>Next/Previous</li>
+            <li>Dots</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading">Пример</div>
+        <div class="panel-body">
+          <div class="slider">
+            <div class="slider-item">
+              <h2>Title 1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus culpa illo expedita sunt voluptatem hic, magnam,
+                eveniet earum delectus ratione odit et explicabo commodi, enim
+                nemo. Sit esse consequuntur aspernatur.
+              </p>
+            </div>
+            <div class="slider-item">
+              <h2>Title 2</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus culpa illo expedita sunt voluptatem hic, magnam,
+                eveniet earum delectus ratione odit et explicabo commodi, enim
+                nemo. Sit esse consequuntur aspernatur.
+              </p>
+            </div>
+            <div class="slider-item">
+              <h2>Title 3</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus culpa illo expedita sunt voluptatem hic, magnam,
+                eveniet earum delectus ratione odit et explicabo commodi, enim
+                nemo. Sit esse consequuntur aspernatur.
+              </p>
+            </div>
+          </div>
+
+          <button class="btn btn-default" onclick="prevSlide()">Prev</button>
+          <button class="btn btn-default" onclick="nextSlide()">Next</button>
+
+          <div class="sliderDots"></div>
+        </div>
+      </div>
+    </div>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+      integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
+      crossorigin="anonymous"
+    />
+    <script src="scripts.js"></script>
+  </body>
+</html>

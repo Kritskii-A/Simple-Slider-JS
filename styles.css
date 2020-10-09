@@ -1,0 +1,20 @@
+.slider-item {
+  display: none;
+}
+
+.sliderDots {
+  display: flex;
+  justify-content: center;
+}
+
+.sliderDots > div::after {
+  content: "•";
+  color: #000;
+  font-size: 50px;
+  opacity: 0.5;
+  padding: 0 5px;
+}
+
+.sliderDots > div:hover::after {
+  opacity: 1;
+}
